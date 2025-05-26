@@ -6,11 +6,57 @@
     <title>DriverEasy - Aluguel de Carros</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        header {
+            text-align: center;
+            background-color: #0044cc;
+            color: white;
+            padding: 20px 0;
+        }
+
+        h1.cor-padrão {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin: 20px 0;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #f1f1f1;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
-  
+    <!-- Header -->
     <header>
-        <h1 class = "cor-padrão">DriverEasy</h1>
+        <h1 class="cor-padrão">DriverEasy</h1>
         <p>Alugue o carro dos seus sonhos de forma simples e rápida</p>
         <nav>
             <ul>
@@ -18,20 +64,16 @@
                 <li><a href="#flota">Nossa Frota</a></li>
                 <li><a href="#servicos">Serviços</a></li>
                 <li><a href="#contato">Contato</a></li>
+                <li><a href="quiz.html">Quiz de Carros</a></li> <!-- Link para o Quiz -->
             </ul>
         </nav>
     </header>
 
-
     <main>
-
         <section id="home">
             <h2>Bem-vindo ao DriverEasy!</h2>
             <p>Procurando a melhor opção para alugar um carro? O DriverEasy oferece uma maneira rápida, prática e segura de alugar o veículo perfeito para a sua necessidade. Se você está viajando, indo a um evento ou precisa de um carro por um curto período, nós temos a solução ideal para você!</p>
-            <br>
-            <p>Confira nossa frota de veículos modernos e confortáveis, com preços acessíveis e condições flexíveis.</p>
         </section>
-
 
         <section id="flota">
             <h2>Nossa Frota</h2>
@@ -43,7 +85,6 @@
             </ul>
             <button>Reserve Agora</button>
         </section>
-
 
         <section id="servicos">
             <h2>Serviços</h2>
@@ -59,12 +100,11 @@
             <h2>Entre em Contato</h2>
             <p>Tem dúvidas ou quer saber mais sobre as opções de aluguel? Nossa equipe está pronta para te ajudar!</p>
             <ul>
-                <li>Email: <a href="kelvin.dantas@escola.pr.gov.br">kelvin.dantas@escola.pr.gov.br</a></li>
+                <li>Email: <a href="mailto:kelvin.dantas@escola.pr.gov.br">kelvin.dantas@escola.pr.gov.br</a></li>
                 <li>Telefone: <a href="tel:+551112345678">(11) 1234-5678</a></li>
             </ul>
         </section>
     </main>
-
 
     <footer>
         <p>&copy; 2025 Kelvin - TUDO MEU NUM É DE NINGUEN</p>
